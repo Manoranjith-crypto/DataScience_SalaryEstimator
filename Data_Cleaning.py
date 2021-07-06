@@ -26,7 +26,7 @@ df['min_salary'] = min_hr.apply(lambda x: int(x.split('-')[0]))
 df['max_salary'] = min_hr.apply(lambda x: int(x.split('-')[1]))
 df['avg_salary'] = (df.min_salary + df.max_salary)/2
 
-#compsny name
+#company name
 
 df['Company '] = df.apply(lambda x: x['Company Name'] if x['Rating'] < 0 else x['Company Name'][:-3], axis =1)
 
@@ -38,7 +38,7 @@ df['Age'] = df['Founded'].apply(lambda x: x if x<1 else 2021 - x)
 
 df['Job_State'] = df['Location'].apply(lambda x: x.split(',')[1])
 
-#Headquartres
+#Headquarters
 
 df['Same_State'] = df.apply (lambda x: 1 if x.Headquarters == x.Job_State else 0, axis =1)
 
