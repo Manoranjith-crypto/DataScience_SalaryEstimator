@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Apr 14 08:27:28 2020
+Created on Tue Jul  6 15:11:29 2021
 
-@author: Ken
+@author: Manoranjith
 """
 
 data_in = [3.6,
