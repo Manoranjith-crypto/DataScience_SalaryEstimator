@@ -59,6 +59,10 @@ I looked at the distributions of the data and the value counts for the various c
 ![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/positions_by_state.png "Job Opportunities by State")
 ![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/correlation_visual.png "Correlations")
 
+## Power Bi Report
+
+![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/Power_Bi_Report.png "Report")
+
 ## Model Building 
 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.   
